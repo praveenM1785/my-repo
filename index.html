@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MUNNAR</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <h1 class="logo">ADVENTURE</h1>
+        <ul class="nav-links">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">Activities</a></li>
+            <li><a href="#">Explore</a></li>
+            <li><a href="#">About</a></li>
+            <li class="ctn"><a href="#">Contact</a></li>
+        </ul>
+        <img src="icons8-menu-50.png" alt="Menu" class="menu-btn">
+    </nav>
+    <header>
+        <div class="header-content">
+            <h2>Explore the colorful Munnar</h2>
+            <div class="line"></div>
+            <h1>Breathe in the freshness, feel the calm</h1>
+            <a href="#" class="ctn">Learn more</a>
+        </div>
+    </header>
+    
+    <section class="events">
+        <div class="title">
+            <h1>Adventure Activities</h1>
+            <div class="line"></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="lo.jpg" alt="Trekking">
+                <h4>Trekking</h4>
+                <p>We offer thrilling trekking trails through misty hills and lush tea plantations. Enjoy stunning views, wildlife, and fresh mountain air on your adventure!</p>
+                <a href="#" class="ctn">Learn more</a>
+            </div>
+            <div class="col">
+                <img src="uio.jpg" alt="Camping">
+                <h4>Camping</h4>
+                <p>Experience peaceful camping in Munnar’s scenic hills, surrounded by misty mountains and tea gardens. Enjoy bonfires, starry nights, and nature at its best!</p>
+                <a href="#" class="ctn">Learn more</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="explore">
+        <div class="explore-content">
+            <h1>EXPLORE THE MUNNAR</h1>
+            <div class="line"></div>
+            <p>Discover scenic trails, hidden waterfalls, and the thrill of the outdoors!</p>
+            <a href="#" class="ctn">Learn more</a>
+        </div>
+    </section>
+
+    <section class="places">
+        <div class="row">
+            <div class="col content-col">
+                <h1>Places to Visit</h1>
+                <div class="places-container">
+                    <div class="place">
+                        <h2>Echo Point</h2>
+                        <p>A scenic spot where your voice echoes back, surrounded by misty hills and lush greenery.</p>
+                    </div>
+                    <div class="place">
+                        <h2>Top Station</h2>
+                        <p>The highest point in Munnar, offering breathtaking panoramic views of the Western Ghats.</p>
+                    </div>
+                    <div class="place">
+                        <h2>Mattupetty Dam</h2>
+                        <p>A peaceful lake ideal for boating, with stunning mountain views and rich wildlife around.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col image-col">
+                <div class="image-gallery">
+                    <img src="1b.jpg" alt="">
+                    <img src="2b.jpg" alt="">
+                    <img src="3b.jpg" alt="">
+                    <img src="4b.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="footer">
+        <p>Tenth Avenue, 9090, Udumalpet, Tamilnadu | Phone: 6383616767 | Email: praveenm6397@gmail.com</p>
+        <p>&copy; 2025 Outdoor Adventure</p>
+    </section>
+
+    <script>
+        const menuBtn = document.querySelector('.menu-btn');
+        const navLinks = document.querySelector('.nav-links');
+        menuBtn.addEventListener('click', () => {
+            navLinks.classList.toggle('mobile-menu');
+        });
+    </script>
+</body>
+</html>
